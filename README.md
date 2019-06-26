@@ -1,4 +1,8 @@
-# Analysis of GitHub repositories activities 
+# Analysis of GitHub repositories activities  
+ 
+GitHub offers a public REST API and a developer dedicated Web site (https://developer.github.com/v3/) that contains documentation and examples of using this API. 
+ 
+This project uses Github API for following requirements:
 
  1. A user can search for a public project (also called repository) hosted on theGitHub platform.
  
@@ -7,7 +11,9 @@
  3. The Analyzer application would show three basic types of analytics for the selected project:
     - List of committers (contributors) for this project.
     - Based on the 100 latest commits, the impact of each user on the project (based on number of commits)
-    - Based on the 100 latest commits, the projection of commits on a timeline.4. This result page must be bookmark-able for later direct access.
+    - Based on the 100 latest commits, the projection of commits on a timeline.
+ 
+ 4. This result page must be bookmark-able for later direct access.
 
 I've used swagger for Rest documentation. You can reach with this address:
 http://localhost:8000/swagger-ui.html#/
